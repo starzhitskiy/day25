@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+body{
+font:300 18px/1.88 'Lato', sans-serif;
+color: #5c5c5c;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 1240px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+.ba-container{
+	padding: 121px;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+.ba-big:first-letter{
+	font-family: 'Playfair Display', serif;
+	font-size: 110px;
+	float: left;
+	line-height: 0.8;
+	margin-right: 20px;
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+	margin: 35px 0 30px;
+}
+p{
+	margin-bottom: 45px;
+	letter-spacing: -0.005em;
+}
+sup{
+	font-size: 60px;
+	float: left;
+	line-height: 1;
+	margin-right: 20px;
+}
+.ba-discover{
+	display: inline-block;
+	background-color: #fff;
+	color: #eaa258;
+	font-weight: bold;
+	padding: 22px 75px;
+	border: 2px solid;
+	transition: 0.2s;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+
+
